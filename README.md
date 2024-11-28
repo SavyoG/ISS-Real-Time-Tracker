@@ -24,5 +24,5 @@ A custom world map image is used as the background for the Turtle graphics windo
 The ISS is represented as a custom icon (iss.gif), dynamically moving across the map.
 
 
-![World Map](Images\map.gif)
+![World Map](Images/map.gif)
 
