@@ -30,10 +30,11 @@ screen.setworldcoordinates(-180, -90, 180, 90)
 screen.bgpic("C:/Users/glyan/OneDrive/Documents/Space Projects/ISS Tracking Project/map.gif")
 screen.register_shape("C:/Users/glyan/OneDrive/Documents/Space Projects/ISS Tracking Project/iss.gif")
 
+ # Corrected method call
 iss = turtle.Turtle()
 iss.shape("C:/Users/glyan/OneDrive/Documents/Space Projects/ISS Tracking Project/iss.gif")
 iss.setheading(45)
-iss.penup()  # Corrected method call
+iss.penup()
 
 # Function to fetch ISS location
 def fetch_iss_location():
