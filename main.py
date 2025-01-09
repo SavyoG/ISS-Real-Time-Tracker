@@ -3,7 +3,7 @@ import turtle
 import urllib.request
 import time
 import webbrowser
-import geocoder  # type: ignore
+import geocoder
 
 # Write astronaut data to file
 url = "http://api.open-notify.org/astros.json"
